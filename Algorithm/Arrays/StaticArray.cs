@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm.Arrays
 {
+    // Array vs List
     // Array memory is static and continuous. List memory is dynamic and random
     public class StaticArray
     {
