@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Algorithm.Arrays
+namespace Algorithm.LinkedList
 {
 
     // Dictonary vs Hash Table C# https://www.geeksforgeeks.org/difference-between-hashtable-and-dictionary-in-c-sharp/

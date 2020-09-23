@@ -8,8 +8,11 @@
   <ItemGroup>
     <Folder Include="Arrays\" />
     <Folder Include="Arrays\Exercise\" />
-    <Folder Include="Hash able\" />
-    <Folder Include="Hash able\Exercise\" />
-    <Folder Include="LinkedList\" />
+    <Folder Include="Hash Table\" />
+    <Folder Include="Hash Table\Exercise\" />
+    <Folder Include="Linked List\" />
+    <Folder Include="Stack And  Queues\" />
+    <Folder Include="Hash Table\Class\" />
+    <Folder Include="Linked List\Class\" />
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Algorithm.Arrays.Excercise
+namespace Algorithm.HashTable.Excercise
 {
     static class FirstRecurringChar
     {
@@ -28,19 +28,13 @@ namespace Algorithm.Arrays.Excercise
 
         }
 
-        static void Main(string[] args)
-        {
-            //[1,2,2,4,6,7] -> true
-            //[1,2,3,4,2,7] -> true
-            //[1,2,7] -> false
+        //static void Main(string[] args)
+        //{
+        //    //[1,2,2,4,6,7] -> true
+        //    //[1,2,3,4,2,7] -> true
+        //    //[1,2,7] -> false
 
-            Console.WriteLine(FirstRecurringChar.Find(new List<int> { 1, 2, 2, 4, 6, 7 }));
-        }
+        //    Console.WriteLine(FirstRecurringChar.Find(new List<int> { 1, 2, 2, 4, 6, 7 }));
+        //}
     }
-
-
-    //Hash table
-
-
-
 }
