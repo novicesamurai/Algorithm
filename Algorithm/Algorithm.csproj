@@ -14,5 +14,6 @@
     <Folder Include="Stack And  Queues\" />
     <Folder Include="Hash Table\Class\" />
     <Folder Include="Linked List\Class\" />
+    <Folder Include="Trees\" />
   </ItemGroup>
 </Project>

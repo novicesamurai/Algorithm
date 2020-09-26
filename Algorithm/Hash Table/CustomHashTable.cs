@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Algorithm.HashTable.Class;
 
-namespace Algorithm.LinkedList
+namespace Algorithm.HashTable
 {
 
     // Dictonary vs Hash Table C# https://www.geeksforgeeks.org/difference-between-hashtable-and-dictionary-in-c-sharp/
@@ -10,22 +11,22 @@ namespace Algorithm.LinkedList
     // if the same key is given, hash table allocates the data into same address.
     // in other words, hash will convert string into the index. 
     // thats why finding the data is first. O(1)
-    public class CustomHashTable
+    public class MyHashTable
     {
         private int _length { get; set; }
-        private KeyValueObj[] _memory { get; set; }
+        private Node[] _memory { get; set; }
 
-        public CustomHashTable(int size)
+        public MyHashTable(int size)
         {
             _length = size;
-            _memory = new KeyValueObj[size];
+            _memory = new Node[size];
         }
 
         public void Set(string key, string val)
         {
             var address = Hash(key);
 
-            _memory[address] = new KeyValueObj { Key = key, Value = val };
+            _memory[address] = new Node { Key = key, Value = val };
 
             return;
         }
@@ -91,11 +92,5 @@ namespace Algorithm.LinkedList
         //    var keys = myHash.GetKeys();
         //    Console.WriteLine(keys);
         //}
-    }
-
-    public class KeyValueObj
-    {
-        public string Key { get; set; }
-        public string Value { get; set; }
     }
 }
