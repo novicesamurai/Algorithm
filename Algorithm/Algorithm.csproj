@@ -15,5 +15,6 @@
     <Folder Include="Hash Table\Class\" />
     <Folder Include="Linked List\Class\" />
     <Folder Include="Trees\" />
+    <Folder Include="Graph\" />
   </ItemGroup>
 </Project>
